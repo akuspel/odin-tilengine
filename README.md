@@ -10,13 +10,12 @@ http://www.tilengine.org
 
 These bindings have been generated with [Odin Binding Generator](https://github.com/Breush/odin-binding-generator) By [Alexis Breust](https://github.com/Breush), and manually modified to function optimally with Tilengine.
 
-Report any bugs you find!
+Please report any bugs you find!
 
 # Usage
 For these bindings to work, you'll need to aquire a built version of Tilengine. You'll also need SDL2 libraries, which Tilengine uses for rendering.
 
 After aquiring, place Tilengine.dll and SDL2.dll into the build directory of your Odin project.
-
 You must also place Tilengine.lib into the same folder as these bindings (tilengine.odin).
 
 To use the bindings in Odin, import them with ' import tln "tilengine" ' in your Odin file.
